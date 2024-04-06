@@ -27,6 +27,7 @@ with open('Dataset.csv', 'w') as table1:
             table1.write(intensity + ',')
         table1.write('\n')
 
-copyfile('Type_Dataset.csv', 'IBU_Dataset.csv')
-copyfile('Type_Dataset.csv', 'Alcohol_Percentages_Dataset.csv')
+#copyfile('Dataset.csv', 'IBU_Dataset.csv')
+#copyfile('Dataset.csv', 'Type_Dataset.csv')
+#copyfile('Dataset.csv', 'Alcohol_Percentages_Dataset.csv')
 
