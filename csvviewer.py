@@ -15,10 +15,10 @@ from sklearn import neighbors # how methods are imported
 from sklearn import metrics
 
 
-Data = pd.read_csv('Dataset.csv')
-Al = pd.read_csv('Alcohol_Percentages_Dataset.csv')
+Data = pd.read_csv('./datasets/Dataset.csv')
+Al = pd.read_csv('./datasets/Alcohol_Percentages_Dataset.csv')
 
-Type = pd.read_csv('Type_Dataset.csv')
-print(Al.head())
-
-print(Type.head())
+Type = pd.read_csv('./datasets/Type_Dataset.csv')
+print(Al.tail())
+print(Data.tail())
+print(Type.tail())
