@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_excel(f'Beer_table_23_02.xlsx', engine='openpyxl')
+df = pd.read_excel(f'Beer_table_12_04.xlsx', engine='openpyxl')
 
 IBU = df['IBU']
 Alcohol = df['Alcohol']
